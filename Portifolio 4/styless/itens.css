@@ -1,0 +1,42 @@
+.containeritens{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 2rem 10rem;
+    
+}
+.minicontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cortres);
+    border-radius: 2rem;
+}
+.paragrafoitens{
+    text-align: center;
+    margin: 1rem;
+}
+.imagemitens{
+    width: 16rem;
+    height: 16rem;
+    border-radius: 0.5rem;
+    
+}
+.botao3{
+    color: var(--corfundo);
+    background-color: var(--corseis);
+    border-radius: 3px;
+    border: solid 2px var(--cornove);
+    padding: 1rem;
+    width: 90%;
+    margin: 5%;
+}
+
+.botao3:hover{
+    background-color: var(--coroito);
+}
+.preco{
+    color: var(--cornove);
+    font-weight: 200;
+    margin-top: 1rem;
+}

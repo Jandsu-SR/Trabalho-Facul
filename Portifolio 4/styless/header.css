@@ -1,0 +1,153 @@
+.cabecalhomenu{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url("../icones/Menu.svg");
+    display: inline-block;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.containerhome{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+/*.containerbotao:checked ~ .containertotulo > .cabecalhomenu {
+    /*background-image: url(); (aqui eu colocaria a imagem do menu para trocar mas nao quis)*/
+
+.containerbotao:checked ~ .containerrotulo {
+    background: var(--cornove);
+}
+
+
+.cabecalho {
+    background-color: var(--cordois);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+.containerimagem{
+    padding: 0.5rem;
+}
+.listamenu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+
+}
+.containerbotao:checked ~ .listamenu {
+    display: block;
+}
+.listamenutitulo,
+.listamenuitens{
+    padding: 1em;
+    background-color: var(--cordois);
+}
+.listamenutitulo{
+    color: var(--corsete);
+    font-weight: 800;
+    
+}
+.listamenulink{
+    color: var(--corquatro);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: var(--corquatro);
+    background-clip: text;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.containerbotao{
+    display: none;
+}
+
+.containertitulo {
+    display: none;
+    color: var(--corsete);
+}
+.opcoes, .opcoesitem, .opcoeslink {
+    display: none;
+}
+.containertexto {
+    display: none;
+}
+
+.listamenuitens:hover>.listamenulink {
+    -webkit-text-fill-color: var(--cornove);
+    text-decoration: none;
+}
+
+
+@media screen and (min-width: 1024px) {
+    
+    .containertitulo{
+        display: block;
+    }
+    .containertitulonegrito{
+        color: var(--corquatro);
+    }
+
+    .opcoes{
+        display: flex;
+        text-decoration: none;
+        color: var(--corsete);
+    }
+    .opcoesitem{
+        padding: 0 1em;
+        color: var(--corsete);
+        display: block;
+    }
+    .opcoeslink{
+        text-decoration: none;
+        color: var(--corsete);
+        display: block;
+    }
+
+    .imagemtransparente {
+        display: none;
+    }
+    .cabecalhomenu {
+        display: none;
+    }
+    .opcoesbotao:checked ~ .listamenu {
+        display: block;
+        width: auto;
+    }
+    .opcoesbotao{
+        display: none;
+    }
+    .opcoesitem :hover {
+        color: var(--corquatro);
+    }
+
+    .opcoesitem:hover{
+        color: var(--corquatro);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .containerlink{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--corsete);
+    }
+    .cabecalho{
+        padding: 0.2em;
+    }
+    .containerlink :hover {
+    color: var(--coroito);
+    }
+    .containertexto{
+        display: block;
+    }
+}

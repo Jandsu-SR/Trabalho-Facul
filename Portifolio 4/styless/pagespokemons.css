@@ -1,0 +1,46 @@
+.titulopages{
+    font-size: 5rem;
+    text-align: center;
+    color: var(--cornove);
+}
+.paragrafopages{
+    text-align: center;
+    color: var(--corsete);
+}
+.imagempages{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    background-color: var(--cortres);
+}
+.tamanhoimagempages{
+    width: 20rem;
+    height: auto;
+}
+.textoapresentacao{
+    background-color: var(--cortres);
+}
+.containeranterodape{
+    background-color: var(--coroito);
+    text-align: center;
+}
+.linkanterodape {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+}
+.categoriapages{
+    text-decoration: none;
+    color: var(--corsete);
+    margin-left: 0.2em;
+}
+.categoriapages:hover {
+    color: var(--cordois);
+    font-size: 300;
+}
+
+.iconesanterodape {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+}

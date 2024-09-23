@@ -1,0 +1,13 @@
+
+.rodape{
+display: flex; /* Coloca a imagem e o título em uma linha */
+justify-content: center; /* Centraliza o conteúdo horizontalmente */
+align-items: center; /* Alinha verticalmente no centro */
+gap: 1rem; /* Espaçamento entre a imagem e o título */
+text-align: center; /* Centraliza o texto dentro do título */
+margin: 0;
+}
+.logopokebolarodape{ 
+    width: 1.5rem; /* A imagem ocupará 100% da largura do seu contêiner */
+  height: auto; /* A altura será ajustada automaticamente para manter a proporção */
+}

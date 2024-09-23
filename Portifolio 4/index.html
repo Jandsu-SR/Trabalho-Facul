@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Six Boulangerie</title>
+    <link rel="stylesheet" href="/styless/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/styless/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="containerbotao">
+            <label for="menu" class="containerrotulo">
+                <span class="cabecalhomenu containerimagem"></span>
+            </label>
+            <ul class="listamenu">
+                <li class="listamenutitulo">Categorias</li>
+                <li class="listamenuitens"><a href="/pages/Paes.html" class="listamenulink">Pães</a></li>
+                <li class="listamenuitens"><a href="/pages/bolos.html" class="listamenulink">Bolos</a></li>
+                <li class="listamenuitens"><a href="/pages/Frios.html" class="listamenulink">Frios</a></li>
+                <li class="listamenuitens"><a href="/pages/bebidas.html" class="listamenulink">Bebidas</a></li>
+                <li class="listamenuitens"><a href="/pages/Outros.html" class="listamenulink">Outros</a></li>
+            </ul>
+            <a class="containerhome" href="index.html">
+                <img class="logopokebola containerimagem" src="/imagens/Logo padaria.png" alt="logo pokeshop">
+                <h1 class="containertitulo"><b class="containertitulonegrito">Six</b>Boulangerie</h1>
+            </a>
+        </div>
+        <ul class="opcoes">
+        <input type="checkbox" id="opcoesmenu" class="opcoesbotao">
+        <label for="opcoesmenu">
+        <li class="opcoesitem">Categorias</li>
+        </label>
+        <ul class="listamenu">
+            <li class="listamenutitulo">Categorias</li>
+            <li class="listamenuitens"><a href="/pages/Paes.html" class="listamenulink">Pães</a></li>
+            <li class="listamenuitens"><a href="/pages/bolos.html" class="listamenulink">Bolos</a></li>
+            <li class="listamenuitens"><a href="/pages/Frios.html" class="listamenulink">Frios</a></li>
+            <li class="listamenuitens"><a href="/pages/bebidas.html" class="listamenulink">Bebidas</a></li>
+            <li class="listamenuitens"><a href="/pages/Outros.html" class="listamenulink">Outros</a></li>
+        </ul>
+        <li class="opcoesitem"><a href="/pages/Favoritos.html" class="opcoeslink">Favoritos</a></li>
+        <li class="opcoesitem"><a href="/pages/Saibamais.html" class="opcoeslink">Nossa Lojá</a></li>
+        </ul>
+        <div class="container">
+            <a class="containerimagem imagemtransparente" href="/pages/Favoritos.html"><img src="/icones/Favoritos.svg" alt="meus favoritos"></a>
+            <a class="containerimagem containerlink" href="/pages/compras.html">
+                <img src="/icones/Compras.svg" alt="carrinho de compras">
+                <p class="containertexto">Minha Sacola</p>
+            </a>
+            <a class="containerimagem containerlink" href="/pages/perfil.html">
+                <img src="icones/Usuário.svg" alt="meu perfil">
+                <p class="containertexto">Meu Perfil</p>
+            </a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="bannertitulo">Já sabe o seu favorito?</h2>
+        <p class="bannertexto">Encontre em nossa loja as mais diversas variedades de Pães e bolos</p>
+        <input type="search" class="bannerpesquisa" placeholder="Qual será seu proximo pedido?">
+    </section>
+    <section class="carrosel">
+        <h2 class="carroseltitulo">Novas Receitas</h2>
+        <!-- Slider main container -->
+         <div class="carroselcontainer">
+<div class="swiper">
+    <!-- Additional required wrapper -->
+     <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img class="imgcarrosel" src="/imagens/Pão de frios2.jpeg" alt="Pão de frios"></div>
+      <div class="swiper-slide"><img class="imgcarrosel" src="/imagens/Bolo+Floresta+Negra_Feed.jpg" alt="Chinchar"></div>
+      <div class="swiper-slide"><img class="imgcarrosel" src="/imagens/pão-queijo-recheado-catupiry.jpg" alt="Riolu"></div>
+      <div class="swiper-slide"><img class="imgcarrosel" src="/imagens/rolinho-primavera.jpg" alt="Suicune"></div>
+      <div class="swiper-slide"><img class="imgcarrosel" src="/imagens/Sonhomorango.jpg" alt="Celebi"></div>
+      
+    </div>
+    
+  
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+
+    <div class="card">
+        <!--1º linha-->
+        <div class="carddescricao">
+            <!--1º coluna-->
+            <div class="descricao">
+                <h3 class="descricaotitulo">Venha conhecer nossa padaria.</h3>
+                <h2 class="descricaotitulolivro">conheça todos os nossos produtos e promoções.</h2>
+                <p class="descricaotextocard"> Visite nossa cozinha, prove nossos produtos e ganhe um brinde, agende sua visita agora.</p>
+            </div>
+            <!--2º coluna-->
+            <img src="/imagens/padaria s.png" class="descricaoimagem" alt="Padaria">
+        </div>
+        <!--2º linha-->
+    <div class="cardbotao"> 
+        <!--1º coluna-->
+        <ul class="botaoum"> 
+            <li class="botaoitem"> <a href="https://www.instagram.com/"><img src="/icones/Instagram.png" alt="Instagram"></a></li>
+            <li class="botaoitem"><a href="https://wa.me/5511954012303"><img src="/icones/Message circle.png" alt="Mensagem"></a></li>
+
+          </ul>
+          <!--2º coluna-->
+          <a href="/pages/Saibamais.html" class="botaoancora"> Saiba Mais</a>
+         </div>
+        </div>
+    </div>
+    <section class="carrosel">
+        <h2 class="carroseltitulo">Mais Vendidos</h2>
+        <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+     <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img class="imgcarrosel" src="/imagens/Pão frances.jpg" alt="Pão frances"></div>
+      <div class="swiper-slide"><img class="imgcarrosel" src="/imagens/baguete.jpg" alt="Baguete"></div>
+      <div class="swiper-slide"><img class="imgcarrosel" src="/imagens/presuntosadia2.png" alt="Presunto"></div>
+      <div class="swiper-slide"><img class="imgcarrosel" src="/imagens/queijo mussarela.jpeg" alt="mussarela"></div>
+      <div class="swiper-slide"><img class="imgcarrosel" src="/imagens/Leite italaque.jpg" alt="Leite italaque"></div>
+      
+    </div>
+    
+  
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+
+    </section>
+
+    <section class="topicos">
+        <h2 class="topicostitulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicoslista">
+            <li class="topicositem">
+                <div class="topicosalinhamento">
+                <a href="#" class="topicoslink">Pão</a>
+                <a href="#" class="topicoslink">Leite</a>
+                <a href="#" class="topicoslink">Bolo</a>
+                <a href="#" class="topicoslink">Manteiga</a>
+                <a href="#" class="topicoslink">Presunto</a>
+                <a href="#" class="topicoslink">Sádia</a>
+                <a href="#" class="topicoslink">Queijo</a>
+                <a href="#" class="topicoslink">Mortadela</a>
+                <a href="#" class="topicoslink">Salgados</a>
+                </div>
+            </li>
+        </ul>
+    </section>
+ 
+    <section class="contato">
+        <h2 class="contatotitulo">Fique por dentro das novidades!</h2>
+        <p class="contatotexto"> Atualização de novas receiras, promoções e outros</p>
+        <input type="email" placeholder="Cadastre seu E-mail" class="contatoemail">
+    </section>
+
+    <hr/>
+
+    <footer class="rodape">
+        <img src="/imagens/Logo padaria.png" alt="Pokedexshop" class="logopokebolarodape">
+        <h2 class="rodapetitulo">Six Boulangerie</h2>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script> 
+    const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+      });
+      </script>
+</body>
+</html>

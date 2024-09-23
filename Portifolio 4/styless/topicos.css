@@ -1,0 +1,66 @@
+.topicos{
+    background: var(--coroito);
+    text-align: center;
+    object-position: center;
+    padding: 1em 0 0 1em;
+    
+}
+.topicostitulo {
+    color: var(--cordois);
+    font-weight: 250;
+}
+.topicoslista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.topicositem{
+    margin: 1.5em 0.5em;
+}
+
+.topicosalinhamento{
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha, se necessário */
+    justify-content: space-between; /* Espaçamento uniforme entre os links */
+    
+}
+.topicosalinhamento a {
+    flex: 1 1 auto; /* Permite que os links ocupem espaço uniformemente */
+    margin: 0 10px; /* Espaçamento horizontal entre os links */
+    text-align: center;
+}
+.topicoslink{
+    color: var(--cordois);
+    padding: 1em;
+    background-color: var(--corseis);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 0.2rem;
+}
+
+.topicoslink:hover {
+    background-color: var(--corfundo);
+    color: var(--coroito);
+}
+@media (max-width: 768px) { /* Define um ponto de corte para telas menores, por exemplo, tablets e smartphones */
+    .topicosalinhamento {
+        display: grid;
+        grid-template-columns: repeat(3, 2fr); /* 2 colunas de tamanho igual */
+        gap: 10px; /* Espaço entre as colunas e linhas */
+        margin: 0.5rem 1rem 0.5rem 1rem;
+    }
+  
+    .topicosalinhamento a {
+        text-align: center; /* Centraliza o texto *//
+    }
+  }
+
+@media screen and (min-width: 1024px) {
+    .topicostitulo {
+        font-size: 2rem;
+    }
+    .topicoslink {
+        font-size: 1.2rem;
+    }
+}
